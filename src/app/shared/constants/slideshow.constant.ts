@@ -1,0 +1,17 @@
+export const TECH_SLIDESHOW: { name: string; image: string }[] = [
+  { name: 'Angular', image: 'assets/icons/brands/angular.svg' },
+  { name: 'Spring Boot', image: 'assets/icons/brands/spring.svg' },
+  { name: 'Java', image: 'assets/icons/brands/java.svg' },
+  { name: 'HTML', image: 'assets/icons/brands/html.svg' },
+  { name: 'CSS', image: 'assets/icons/brands/css.svg' },
+  { name: 'Javascript', image: 'assets/icons/brands/javascript.svg' },
+  { name: 'Git', image: 'assets/icons/brands/git.svg' },
+  { name: 'MySQL', image: 'assets/icons/brands/mysql.svg' },
+  { name: 'Postgres', image: 'assets/icons/brands/postgres.svg' },
+  { name: 'Docker', image: 'assets/icons/brands/docker.svg' },
+  { name: 'postman', image: 'assets/icons/brands/postman.svg' },
+  { name: 'Sass', image: 'assets/icons/brands/sass.svg' },
+  { name: 'Typescript', image: 'assets/icons/brands/typescript.svg' },
+  { name: 'MongoDB', image: 'assets/icons/brands/mongodb.svg' },
+  { name: 'React', image: 'assets/icons/brands/react.svg' },
+];

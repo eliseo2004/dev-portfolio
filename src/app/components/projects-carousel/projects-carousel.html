@@ -1,0 +1,14 @@
+<div class="projects-carousel-main-wrapper">
+
+  <div class="animated-carousel-wrapper">
+    @for (project of projects; track $index) {
+      <div class="project-detail-item">
+        <div class="project-detail-overlay"></div>
+        <img class="project-detail-item-image" [src]="project.image" [alt]="project.title + ' image'">
+        <a class="visit-button" [href]="project.link" target="_blank">
+          <span>Visit {{ project.title }} <i class="icon-external-link"></i> </span>
+        </a>
+      </div>
+    }
+  </div>
+</div>

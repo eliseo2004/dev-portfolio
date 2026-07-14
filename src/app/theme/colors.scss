@@ -1,0 +1,75 @@
+
+:root {
+  // ===== Dark theme (default) =====
+  --base-color: #101214;
+  --darkest-color: #0a0c10;
+  --layout-bg: #1b1e24;
+  --background-gradient: radial-gradient(
+      ellipse 80% 75% at 50% -20%,
+      rgba(50, 90, 150, 0.2),
+      rgba(10, 12, 15, 1)
+  );
+
+  --primary-color: #0568FE;
+  --font-color: #e5e7eb;
+  --text-muted: #9ca3af;
+  --alt-color: #bebebe;
+  --gray_color: #2c2f35;
+  --hover_color: #707070;
+  --border_color: rgba(255, 255, 255, 0.25);
+  --border_alt_color: rgba(255, 255, 255, 0.85);
+  --sun-color: #d69e2e;
+  --white-color: #ffffff;
+  --status-color: #34d399e6;
+
+
+  --scrollbar-thumb: #575757;
+  --scrollbar-track: #0a0c0f;
+  --scrolled-bg: rgba(255, 255, 255, 0.2);
+  --slide-shadow:  rgba(28, 30, 35, 0.9) 45%, rgba(28, 30, 35, 0) 100%;
+}
+
+
+:root[data-theme='light'] {
+  --base-color: #f4f5f7;
+  --darkest-color: #ffffff;
+  --layout-bg: #ffffff;
+  --background-gradient: rgb(245 245 247 / var(--tw-bg-opacity));
+
+  --primary-color: #0568FE;
+  --font-color: #1f2937;
+  --text-muted: #6b7280;
+  --alt-color: #4b5563;
+  --gray_color: #e9ebef;
+  --hover_color: #d1d5db;
+  --border_color: rgba(0, 0, 0, 0.25);
+  --border_alt_color: rgba(0, 0, 0, 0.85);
+  --sun-color: #c9852a;
+  --white-color: #ffffff;
+  --status-color: #059669;
+
+  --scrollbar-thumb: #c1c1c1;
+  --scrollbar-track: #f1f1f1;
+  --scrolled-bg: rgba(0, 0, 0, 0.06);
+  --slide-shadow: rgba(255, 255, 255, 0.9) 45%, rgba(255, 255, 255, 0) 100%;
+}
+
+$base_color: var(--base-color);
+$darkest_color: var(--darkest-color);
+$layout_bg: var(--layout-bg);
+$background: var(--background-gradient);
+
+$primary_color: var(--primary-color);
+$font_color: var(--font-color);
+$text_muted: var(--text-muted);
+$alt_color: var(--alt-color);
+$gray_color: var(--gray_color);
+$hover_color: var(--hover_color);
+$border_color: var(--border_color);
+$border_alt_color: var(--border_alt_color);
+$sun_color: var(--sun-color);
+$white_color: var(--white-color);
+$scrolled-bg: var(--scrolled-bg);
+$status-color: var(--status-color);
+$slide-shadow: var(--slide-shadow);
+

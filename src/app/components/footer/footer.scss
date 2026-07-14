@@ -1,0 +1,59 @@
+@use"../../theme/styles" as *;
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 20vh;
+
+  .source-code {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &:hover {
+      color: $text_muted;
+      cursor: pointer;
+    }
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 105px;
+  }
+
+  .rigth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 105px;
+  }
+
+  span, a {
+    color: $font_color;
+    font-size: $text;
+    font-weight: $regular;
+  }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+
+    .rigth {
+      flex-direction: column-reverse;
+      margin-right: 0;
+    }
+
+    .left {
+      margin-left: 0;
+    }
+  }
+}

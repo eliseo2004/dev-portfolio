@@ -1,0 +1,27 @@
+@use "../../theme/styles" as *;
+
+.abstract-section-main-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+
+  .abstract-title {
+    color: $font_color;
+    font-size: $title;
+    font-weight: bold;
+  }
+
+  .abstract-description {
+    color: $font_color;
+    font-size: $big-text;
+    font-weight: $medium;
+    text-align: center;
+  }
+}

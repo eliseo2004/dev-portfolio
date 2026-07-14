@@ -1,0 +1,90 @@
+@use "../../theme/styles" as *;
+
+.main-section-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    color: $font_color;
+    font-size: $title;
+    font-weight: $bold;
+  }
+
+  .experience-section {
+    border-inline-start: 1px solid $text_muted;
+    position: relative;
+
+    .experience-list {
+      padding-left: 15px;
+      padding-bottom: 40px;
+      position: relative;
+
+      .experience-item-list {
+        position: relative;
+        padding-bottom: 60px;
+      }
+
+      .circle-list {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: $text_muted;
+        position: absolute;
+        left: -20.5px;
+        top: 9.5px;
+      }
+
+      time {
+        color: $text_muted;
+        font-size: $big-text;
+        font-weight: $medium;
+      }
+
+      h3 {
+        color: $font_color;
+        font-size: $big-text;
+        font-weight: $bold;
+      }
+
+      p {
+        color: $alt_color;
+      }
+
+      .btn-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 180px;
+        gap: 5px;
+        color: $text_muted;
+        background-color: $gray_color;
+        border: 1px solid $text_muted;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+
+        &:hover {
+          color: $font_color;
+          background-color: $hover_color;
+        }
+
+        span {
+          font-size: $text;
+          font-weight: $medium;
+        }
+      }
+    }
+
+    .experience-list .first {
+      time {
+        font-size: $title_alt;
+      }
+    }
+  }
+}

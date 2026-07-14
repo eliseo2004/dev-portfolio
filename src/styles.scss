@@ -1,0 +1,67 @@
+@use '../src/app/theme/styles' as *;
+@import './assets/icons/style.css';
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  min-height: 100%;
+  background-color: rgba(10, 12, 15, 1);
+  color: $font_color;
+  overflow-x: hidden;
+}
+
+iframe {
+  border: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: $base_color;
+  background-image: $background;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #575757 #0a0c0f;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #575757;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
